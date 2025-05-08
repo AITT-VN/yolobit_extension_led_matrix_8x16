@@ -154,7 +154,7 @@ Blockly.Python["yolobit_led_matrix_create"] = function (block) {
   // TODO: Assemble Python into code variable.
   Blockly.Python.definitions_["import_yolobit"] = "from yolobit import *";
   Blockly.Python.definitions_["import_tm1637"] = "from led_matrix import *";
-  Blockly.Python.definitions_['init_tm1637'] = "led_matrix = LedMatrix(dio=" + dropdown_data + ", clk=" + dropdown_clk + ")";
+  Blockly.Python.definitions_['create_tm1637'] = "led_matrix = LedMatrix(dio=" + dropdown_data + ", clk=" + dropdown_clk + ")";
   var code = '';
   return code;
 };
